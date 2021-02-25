@@ -1,0 +1,124 @@
+# site name
+prefixName: 一咻工作室
+siteName: APingStudio
+# favicon and site master avatar
+favicon: /images/img1.png
+avatar: /images/avatar.jpg
+url: https://space.bilibili.com/331466888
+description: Live your life with passion! With some drive!
+cdn: 
+pjax: 1
+# 1开启
+mathjax: 1
+
+notice: 欢迎进入我的网站！
+lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
+
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code }, 
+    生活: {path: /categories/生活/, fa: fa-file-text-o }, 
+    资源: {path: /materials/, fa: fa-cloud-download }, 
+    随想: {path: /categories/随想/, fa: fa-commenting-o },
+    转载: {path: /categories/转载/, fa: fa-book }
+  } }
+  清单: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
+    书单: {path: /tags/悦读/, fa: fa-th-list faa-bounce }, 
+    番组: {path: /bangumi/, fa: fa-film faa-vertical }, 
+    歌单: {path: /music/, fa: fa-headphones },
+    图集: {path: /tags/图集/, fa: fa-photo }
+  } }
+  留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
+  友人帐: { path: /links/, fa: fa-link faa-shake }
+  赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
+    我？: {path: /about/, fa: fa-meetup}, 
+    主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
+    Lab: {path: /lab/, fa: fa-cogs },
+  } }
+ # 客户端: { path: /client/, fa: fa-android faa-vertical }
+  #RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+homeArticleShown: 10
+# 背景图片 更好的修改
+bg:
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(1).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(2).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(3).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(4).jpg.webp
+# - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(5).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(6).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(7).jpg.webp
+#  - https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cover/(8).jpg.webp
+  - https://i.loli.net/2021/02/11/dFGIORg7k5VX9ha.jpg
+  - https://i.loli.net/2021/02/11/x7ietRWXqHjLDy5.jpg
+  - https://i.loli.net/2021/02/11/FgY4QpaLNSuvKce.jpg
+  - https://i.loli.net/2021/02/11/32ZJYQhuV19sfgF.jpg
+  - https://i.loli.net/2021/02/11/t2uDVHCXspacGgd.jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-grid
+
+# startdash url, title, desc img
+startdash: 
+  - {url: /theme-sakura/, title: Sakura, desc: 本站 hexo 主题, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/sakura.md.png}
+  - {url: https://space.bilibili.com/331466888, title: Bilibili, desc: 博主的b站视频, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/bilibili.jpg}
+  - {url: /, title: hojun的万事屋, desc: 技术服务, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/startdash/wangshiwu.jpg}
+
+
+
+# your site build time or founded date
+siteBuildingTime: 02/11/2021
+
+#social  url, img PC端配置
+social:
+  github: {url: https://github.com/nerdsman, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/github.png}
+  #sina: {url: http://weibo.com/mashirozx?is_all=1, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/sina.png}
+  #wangyiyun: {url: http://weibo.com/mashirozx?is_all=1, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wangyiyun.png}
+  zhihu: {url: https://www.zhihu.com/people/lu-tao-85-50, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/zhihu.png}
+#email: {url: https://406960401@qq.com, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/email.svg}
+  wechat: {url: /#, qrcode: https://i.loli.net/2021/02/11/vcisjJrS8a4Pnzd.jpg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+ # wechat2: {url: /#, qrcode: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/wechat.jpg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/nerdsman, fa: fa-github, color: 333}
+  wechat: {url: /#, qrcode: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/custom/wechat.jpg, img: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/social/wechat.png}
+ # weibo: {url: http://weibo.com/mashirozx?is_all=1, fa: fa-weibo, color: dd4b39}
+  qq: {url: http://wpa.qq.com/msgrd?v=3&uin=406960301&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
+
+donate:
+ # paypal: https://www.paypal.me/hojuncn
+  alipay: /images/donate/AliPayQR.jpg
+  #wechat: /images/donate/WeChanQR.jpg
+  wechatSQ: /images/donate/WeChanQR.jpg
+
+# 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
+movies:
+  url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: Unbroken.mp4
+
+aplayer: 
+  id: 2660651585
+  server: netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: random
+  preload: auto
+  volume: 0.7
+  mutex: true
+  mini: true
+
+# Valine
+valine: true
+v_appId: DdsMXpMXVU9txs2JImBoeySP-gzGzoHsz
+v_appKey: Lwl1hTpDKgcYhvil6DWs7zoY
+
